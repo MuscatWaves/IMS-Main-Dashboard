@@ -43,7 +43,7 @@ export const dashboardOperationOptions = [
         icon: MdWorkOutline,
         title: "Accounting Head",
         description: "Portal for Head of the Accounting",
-        path: "https://ims-acc-mw.netlify.app/accounting",
+        path: "https://mw-acc-ims.netlify.app/accounting",
       },
     ],
   },
