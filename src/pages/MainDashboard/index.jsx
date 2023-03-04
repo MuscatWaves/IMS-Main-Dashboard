@@ -49,7 +49,11 @@ const MainDashboard = () => {
                   <m.div
                     className="cards-main-rec__each"
                     key={card.id}
-                    onClick={() => navigateTo(card.path)}
+                    onClick={() =>
+                      card.direct
+                        ? window.open(card.path)
+                        : navigateTo(card.path)
+                    }
                     variants={item}
                   >
                     <div className="dash-card-icon">

@@ -47,6 +47,14 @@ export const dashboardOperationOptions = [
       },
     ],
   },
+  {
+    id: 3,
+    icon: MdWorkOutline,
+    title: "CV Parsing",
+    path: "https://cv.omanjobs.om",
+    description: "Application for Recruitment Division",
+    direct: true,
+  },
 ];
 
 export const dashboardSupportOptions = [
