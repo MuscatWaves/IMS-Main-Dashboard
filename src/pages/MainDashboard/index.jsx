@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom/dist";
 import { AnimatePresence, m } from "framer-motion";
-import ojimage from "../../images/mw-small.png";
+import ojimage from "../../images/mw.png";
 import { Divider } from "antd";
 import { dashboardOperationOptions, container, item } from "../constant";
 import "./maindash.css";

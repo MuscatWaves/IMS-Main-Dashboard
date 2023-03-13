@@ -7,7 +7,7 @@ import {
   item,
 } from "../constant";
 import { AnimatePresence, m } from "framer-motion";
-import ojimage from "../../images/mw-small.png";
+import ojimage from "../../images/mw.png";
 import BreadCrumb from "../../components/BreadCrumb";
 import { useNavigate } from "react-router-dom/dist";
 import { removeUnderScore } from "../../utilities";
